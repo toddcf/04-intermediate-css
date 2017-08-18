@@ -7,12 +7,21 @@ h1 {
 }
 
 table {
-	margin: 0 auto;
+	margin: 50px auto;
 	border-collapse: collapse;
 }
 
 td {
-	border: 4px solid #000;
 	width: 150px;
 	height: 150px;
+}
+
+.horizontal {
+	border-top: 4px solid #000;
+	border-bottom: 4px solid #000;
+}
+
+.vertical {
+	border-left: 4px solid #000;
+	border-right: 4px solid #000;
 }
