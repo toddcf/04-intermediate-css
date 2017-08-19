@@ -1,5 +1,10 @@
-/* Border is 20px #bdc3c7 */
-/*Date color: #3498db */
-/*h2 color: #2c3350 */
-/* Google Font: source sans pro */
-/* Body width @ 60% */
+body {
+	width: 60%;
+	margin: 0 auto;
+	font-family: 'Source Sans Pro', sans-serif;
+	border: 20px solid #bdc3c7;
+}
+
+.date { color: #3498db; }
+
+h2 { color: #2c3350; }
